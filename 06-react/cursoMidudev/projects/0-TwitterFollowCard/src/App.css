@@ -18,13 +18,13 @@
 }
 
 .tw-followCard-infoUserName {
-    opacity: .6;
+    opacity: .6;  /* texto un poco transparente */
 }
 
 .tw-followCard-avatar {
     width: 48px;
     height: 48px;
-    border-radius: 1000px;
+    border-radius: 1000px;  /* valor enorme = circulo perfecto */
 }
 
 .tw-followCard-button {
@@ -54,21 +54,23 @@
 }
 
 .tw-followCard-button.is-following:hover {
-    background-color: rgba(255, 0, 0, 0.178);
+    background-color: rgba(255, 0, 0, 0.178);  /* fondo rojo tenue = "dejar de seguir" */
     color: red;
     border: 1px solid red;
     transition: .3s ease all;
     opacity: 1;
 }
 
+/* Cuando esta en hover "Siguiendo", oculta el texto normal */
 .tw-followCard-button.is-following:hover .tw-followCard-text {
     display: none;
 }
 
+/* Y muestra "Dejar de seguir" */
 .tw-followCard-button.is-following:hover .tw-followCard-stopFollow {
     display: block;
 }
 
 .tw-followCard-stopFollow {
-    display: none;
+    display: none;  /* oculto por defecto */
 }

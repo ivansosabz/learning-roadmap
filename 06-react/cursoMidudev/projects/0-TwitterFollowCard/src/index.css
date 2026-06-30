@@ -1,9 +1,9 @@
 body {
     margin: 0;
-    background-color: #222;
-    font-family: system-ui;
+    background-color: #222;  /* fondo oscuro tipo Twitter */
+    font-family: system-ui;  /* fuente nativa del sistema operativo */
     display: grid;
-    place-content: center;
+    place-content: center;   /* centra todo en la pantalla */
     min-height: 100vh;
 }
 .App {
