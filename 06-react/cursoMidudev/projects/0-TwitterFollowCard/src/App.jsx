@@ -9,10 +9,10 @@ export function App() {
         // className en JSX = class en HTML. "class" es palabra reservada en JS
         <section className='App'>
             {/*
-              userName es un prop tipo string (va entre comillas)
-              initialIsFollowing es un booleano: va entre {} porque es JS
-              Lo que va entre <TwitterFollowCard> y </TwitterFollowCard>
-              se pasa como prop "children" (el nombre real del usuario)
+                userName es un prop tipo string (va entre comillas)
+                initialIsFollowing es un booleano: va entre {} porque es JS
+                Lo que va entre <TwitterFollowCard> y </TwitterFollowCard>
+                se pasa como prop "children" (el nombre real del usuario)
             */}
             <TwitterFollowCard userName="ivansosabz" initialIsFollowing={true}>
                 Iván Sosa
